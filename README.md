@@ -29,3 +29,14 @@ ionic emulate android
 
 * Crear nueva page
 ionic generate page Tournaments
+
+
+
+My Teams ---------------------> Tournaments
+    |                               |
+    v                               v
+Team Home-------------------------Teams
+[(Team detail), (Standings)]
+      |
+      v
+     Game

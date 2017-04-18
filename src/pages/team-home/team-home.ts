@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import {Standings, TeamDetail} from '../pages';
+import {Standings, TeamDetail, MyTeamsPage} from '../pages';
 /**
  * Generated class for the TeamHome page.
  *
@@ -27,4 +27,9 @@ export class TeamHome {
     console.log('ionViewDidLoad TeamHome');
   }
 
+  goHome() {
+    //para que vaya al home poniendo el stack en cero
+    //evita que aparezca la flecha de back en la home
+    this.navCtrl.popToRoot();
+  }
 }

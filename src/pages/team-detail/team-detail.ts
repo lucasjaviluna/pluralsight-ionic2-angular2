@@ -24,4 +24,8 @@ export class TeamDetail {
     console.log('ionViewDidLoad TeamDetail');
   }
 
+  goHome() {
+    console.log('parent', this.navCtrl.parent);
+    this.navCtrl.parent.parent.popToRoot();
+  }
 }
