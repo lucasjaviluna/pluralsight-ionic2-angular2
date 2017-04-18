@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+// import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 /**
  * Generated class for the Game page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-@IonicPage()
+// @IonicPage()
 @Component({
   selector: 'page-game',
   templateUrl: 'game.html',

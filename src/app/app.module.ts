@@ -9,11 +9,22 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { Game } from '../pages/game/game';
+import { MyTeamsPage } from '../pages/my-teams/my-teams.page';
+import { TeamDetail } from '../pages/team-detail/team-detail';
+import { Teams } from '../pages/teams/teams';
+import { Tournaments } from '../pages/tournaments/tournaments';
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    Game,
+    MyTeamsPage,
+    TeamDetail,
+    Teams,
+    Tournaments
   ],
   imports: [
     BrowserModule,
@@ -23,7 +34,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    Game,
+    MyTeamsPage,
+    TeamDetail,
+    Teams,
+    Tournaments
   ],
   providers: [
     StatusBar,
