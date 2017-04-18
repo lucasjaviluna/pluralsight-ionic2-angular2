@@ -15,6 +15,8 @@ import { TeamDetail } from '../pages/team-detail/team-detail';
 import { Teams } from '../pages/teams/teams';
 import { Tournaments } from '../pages/tournaments/tournaments';
 
+import { Standings, TeamHome } from '../pages/pages';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -24,7 +26,9 @@ import { Tournaments } from '../pages/tournaments/tournaments';
     MyTeamsPage,
     TeamDetail,
     Teams,
-    Tournaments
+    Tournaments,
+    Standings,
+    TeamHome
   ],
   imports: [
     BrowserModule,
@@ -39,7 +43,9 @@ import { Tournaments } from '../pages/tournaments/tournaments';
     MyTeamsPage,
     TeamDetail,
     Teams,
-    Tournaments
+    Tournaments,
+    Standings,
+    TeamHome
   ],
   providers: [
     StatusBar,
