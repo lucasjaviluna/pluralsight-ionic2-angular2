@@ -5,6 +5,10 @@ https://app.pluralsight.com/player?course=ionic2-angular2-typescript-mobile-apps
 
 https://github.com/smichelotti/Ionic2Course
 
+- npm install lodash --save
+- npm install -g typings
+- typings install lodash --save
+
 
 #Cordova
 
