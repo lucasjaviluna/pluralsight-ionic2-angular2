@@ -40,3 +40,12 @@ Team Home-------------------------Teams
       |
       v
      Game
+
+#Lifecycle Events
+- ionViewDidLoad: se ejecuta cuando la page se carga. Sólo pasa una vez.
+- ionViewWillEnter: se ejecuta cuando una vista se muestra al usuario y se navega en ella
+- ionViewDidEnter: se ejecuta después de que una view se navega y muestra al usuario
+- ionViewWillLeave: se ejecuta cuando una view se deja de navegar
+- ionViewDidLeave: se ejecuta después de que una view se deja de navegar
+- ionViewWillUnload: se ejecuta cuando una vista se descarga. Se descarga por ej de la chache por cuestiones de performance que maneja Ionic cuando se acumulan muchas pages en el stack
+- ionViewDidUnload: se ejecuta despues de que una vista se descarga de memoria

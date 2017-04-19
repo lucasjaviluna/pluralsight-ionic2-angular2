@@ -9,9 +9,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import {MyTeamsPage, Tournaments} from '../pages/pages';
 
 //import {MyTeamsPage} from '../pages/my-teams/my-teams.page';
+import {EliteApi} from '../shared/shared';
+import { HttpModule } from '@angular/http';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  providers: [
+    EliteApi
+  ]
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;

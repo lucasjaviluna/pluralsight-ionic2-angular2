@@ -17,6 +17,8 @@ import { Tournaments } from '../pages/tournaments/tournaments';
 
 import { Standings, TeamHome } from '../pages/pages';
 
+import {HttpModule} from '@angular/http';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -33,6 +35,7 @@ import { Standings, TeamHome } from '../pages/pages';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
