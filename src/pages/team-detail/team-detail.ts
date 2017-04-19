@@ -46,6 +46,7 @@ export class TeamDetail {
                   };
                 })
                 .value();
+    console.log('games', this.games);
   }
 
   getScoreDisplay(isTeam1, team1Score, team2Score) {
